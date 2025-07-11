@@ -198,3 +198,116 @@ header {
     gap: 20px;
     padding: 0px;
 }
+
+.container {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    }
+
+.contact-heading {
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 97px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contact-form {
+    width: 497px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.contact-form label {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #d6dbe9;
+    font-size: 16px;
+    background-color: #f5f7fc;
+    color: #000;
+}
+
+.contact-form textarea {
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 221, 237);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 16px;
+    background-color: #3f41fa;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.lets-get-in-touch-section {
+    margin: 92px 150px 14px 150px;
+    padding: 71px 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 60px 20px 40px;
+    background-color: #fff;
+}
+
+.footer-logo {
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer-description {
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #6e6e8e;
+}
