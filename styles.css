@@ -77,3 +77,45 @@ header {
     letter-spacing: 0%;
     text-align: left;
 }
+.productive-users-section {
+    margin: 116px 159px 137px 141px;
+    padding: 50px 80px;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.1);
+}
+.productive-users-section h2 {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.stat-number {
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 97px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.stat-label {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.stats-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 158px;
+    padding: 0px;
+}
