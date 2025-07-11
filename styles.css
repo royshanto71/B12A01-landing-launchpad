@@ -44,3 +44,36 @@ nav {
 header {
     background-image: url(../Assets/Hero-bg.png);
 }
+.action-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 116px 159px 116px 141px;
+    gap: 220px;
+}
+.action-section-image img {
+    border-radius: 48px;
+    position: static;
+    width: 403px;
+    height: 328px
+}
+.action-section-text h2 {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.action-section-text p {
+    color: rgba(37, 36, 50, 0.5);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
