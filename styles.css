@@ -311,3 +311,18 @@ footer {
     text-decoration: none;
     color: #6e6e8e;
 }
+
+
+/* hover button */
+
+.easy-hover {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.easy-hover:hover {
+  background-color: #007BFF;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
