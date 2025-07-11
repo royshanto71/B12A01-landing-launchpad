@@ -1,0 +1,46 @@
+.logo {
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.sign-up {
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    padding: 12px 36px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+    margin: 0 158px 0 158px;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.banner-title {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+header {
+    background-image: url(../Assets/Hero-bg.png);
+}
